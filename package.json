@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "node ./node_modules/jest/bin/jest",
-    "start": "node index.js"
+    "test": "test"
   },
   "scripts": {
-    "test": "npm start"
+    "test": "node ./node_modules/jest/bin/jest",
+    "start": "npm start"
   },
   "author": "paulinaOM",
   "license": "ISC",
