@@ -7,4 +7,5 @@ class User{
         this.dateCreated = new Date();
         this.lastUpdated = new Date();
     }
+    
 }
