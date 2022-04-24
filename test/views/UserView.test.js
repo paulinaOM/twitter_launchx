@@ -13,6 +13,12 @@ describe("Unit test for UserView class", () =>{
     
         expect(result.error).toMatch(/necesitan tener un valor válido/);
     });
+    test('Requirement 3: Payload missing properties', ()=>{
+        const payload = {id:"id", username: "paulinaom"};
+        const result = UserView.createUser(payload);
+    
+        expect(result.error).toMatch(/necesitan tener un valor válido/);
+    });
 });
 
 
